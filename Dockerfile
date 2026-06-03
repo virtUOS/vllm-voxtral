@@ -6,6 +6,7 @@ RUN pip install --no-cache-dir \
     soxr \
     librosa \
     soundfile \
+    av \
     && pip install --no-cache-dir --upgrade transformers
 
 ENV VLLM_DISABLE_COMPILE_CACHE=1
