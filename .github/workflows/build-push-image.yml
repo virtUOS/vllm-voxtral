@@ -28,7 +28,7 @@ jobs:
           swap-storage: true
 
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Normalize image name
         id: meta
